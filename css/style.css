@@ -26,13 +26,15 @@
 
 .relative{
     position: relative;
-    top: 180px;
+    top: 70px;
+    bottom: 0;
 }
 
 .relative__img{
     display: block;
     margin: 0 0 0 auto;
-    max-width: 760px;
+    max-width: 50%;
+    height: 500px;
 }
 
 .relative__img img{
@@ -41,10 +43,9 @@
 
 .absolute{
     position: absolute;
-    top: 330px;
+    top: 275px;
     left: 0;
     right: 370px;
-    padding-bottom: 35px;
     z-index: -10;
 }
 
